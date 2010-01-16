@@ -1,0 +1,7 @@
+SetEnv ENVIRONMENT 'development'
+
+RewriteEngine On
+RewriteBase /~user/df_scrum
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /~user/df_scrum/index.php
