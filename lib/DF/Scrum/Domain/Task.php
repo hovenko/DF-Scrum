@@ -10,8 +10,10 @@ require_once 'DF/Scrum/Domain/Items.php';
 
 class DF_Scrum_Domain_Task
         extends DF_Scrum_Domain_Item {
-            
-    protected $impediments = NULL;
+    
+    protected $impediments      = NULL;
+    
+    protected $hours_remaining  = 0;
     
     
     protected function init_locals() {

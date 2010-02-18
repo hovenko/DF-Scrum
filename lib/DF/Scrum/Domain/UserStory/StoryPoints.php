@@ -1,18 +1,23 @@
 <?php
-// TODO NEEDED?
+
 
 require_once 'DF/Structable.php';
 
 
 /**
- * Development efforts is a value indicating how much effort it is to
- * implement the user story.
+ * Story points are a value indicating how complicated a user story is
+ * to implement.
  * 
- * Poker planning is a method often used to find the effort value.
+ * Poker planning is a method often used to estimate user stories.
+ * 
+ * Story points are most important when selecting user stories to be
+ * a part of the Sprint backlog.
+ * 
+ * More: http://en.wikipedia.org/wiki/Story_points
  * 
  * @author Knut-Olav Hoven <knutolav@gmail.com>
  */
-class DF_Scrum_Domain_UserStory_DevelopmentEffort
+class DF_Scrum_Domain_UserStory_StoryPoints
     implements DF_Structable {
     
     protected $integer  = NULL;
